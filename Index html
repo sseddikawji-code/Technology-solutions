@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+‏  <meta charset="UTF-8">
+
+  <style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #f7f7f7, #ffffff);
+    color: #111;
+  }
+  </style>
+
+</head>
+‏    header {
+      padding: 60px 20px;
+      text-align: center;
+      background: linear-gradient(180deg, #000, #1a1a1a);
+    }
+    header h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+      letter-spacing: 2px;
+    }
+    header p {
+      font-size: 18px;
+      color: #b5b5b5;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
+    .card {
+      background: #1c1c1c;
+      padding: 30px;
+      border-radius: 8px;
+      border: 1px solid #2a2a2a;
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #ffffff;
+    }
+    .card p {
+      color: #bdbdbd;
+      line-height: 1.6;
+    }
+    .contact {
+      text-align: center;
+      background: #111;
+      border-top: 1px solid #2a2a2a;
+    }
+    .contact a {
+      color: #d4af37;
+      text-decoration: none;
+      font-size: 18px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #777;
+      background: #000;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Awji Invest</h1>
+  <p>Strategic Investment & Smart Solutions</p>
+</header>
+
+<section>
+  <h2>Our Services</h2>
+  <div class="services">
+    <div class="card">
+      <h3>Smart Home Solutions</h3>
+      <p>Advanced smart home systems designed for comfort, security, and efficiency using cutting-edge technology.</p>
+    </div>
+    <div class="card">
+      <h3>Turnkey Smart Solutions</h3>
+      <p>End-to-end smart solutions delivered seamlessly from concept to execution, tailored to your needs.</p>
+    </div>
+    <div class="card">
+      <h3>Investor Relations</h3>
+      <p>Professional investor relations services focused on transparency, trust, and long-term growth.</p>
+    </div>
+  </div>
+</section>
+
+<section class="contact">
+  <h2>Contact Us</h2>
+  <p>
+    <a href="mailto:info@awjiinvest.com">info@awjiinvest.com</a>
+  </p>
+</section>
+
+<footer>
+  © 2025 Awji Invest. All rights reserved.
+</footer>
+
+</body>
+</html>
